@@ -1,0 +1,43 @@
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    
+    grid-gap: 5px;
+}
+
+
+
+.grid-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  
+}
+
+
+
+.grid-container > div:nth-child(1n) {
+  	
+}
+
+.grid-container > div:nth-child(3n) {
+  
+}
+
+
+.grid-container > div:nth-child(2n) {
+      
+}
+
+
+.grid-container > div:nth-child(4n) {
+    
+}
+
+
+
+  
